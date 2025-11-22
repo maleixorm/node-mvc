@@ -1,0 +1,28 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "Construindo um MVC com o NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maleixorm/node-mvc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maleixorm/node-mvc/issues"
+  },
+  "homepage": "https://github.com/maleixorm/node-mvc#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7"
+  }
+}
