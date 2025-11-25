@@ -70,3 +70,41 @@ form input[type="submit"] {
     border: none;
     cursor: pointer;
 }
+
+.task-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.task-list li {
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list .title {
+    font-weight: 700;
+    color: #db4c3f;
+    transition: .5s;
+    font-size: 1.2rem;
+}
+
+.task-list .title:hover {
+    color: #333;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
+    color: #333;
+}
+
+.actions i:hover {
+    color: #db4c3f;
+}
